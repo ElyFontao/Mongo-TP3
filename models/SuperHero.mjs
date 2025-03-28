@@ -14,4 +14,5 @@ const superheroSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now },
 });
 
-export default mongoose.model('SuperHero', superheroSchema);
+// Aquí especificamos explícitamente la colección "Grupo-01"
+export default mongoose.model('SuperHero', superheroSchema, 'Grupo-01');

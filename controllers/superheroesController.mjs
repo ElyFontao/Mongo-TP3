@@ -6,7 +6,7 @@ import {
   obtenerTodosLosSuperheroes,
   buscarSuperheroesPorAtributo,
   obtenerSuperheroesMayoresDe38,
-} from '../services/superheroesService.mjs';
+} from '../services/superheroesSService.mjs';
 
 export async function obtenerSuperheroePorIdController(req, res) {
   try {
